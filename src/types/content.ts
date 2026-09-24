@@ -4,4 +4,4 @@ export type Treatment = {
   icon: 'face' | 'syringe' | 'lotus' | 'sparkles';
   description: string; indication: string; benefits: string[]; procedure: string; results: string; faqs: FAQItem[]; related?: string[];
 };
-export type Article = { slug: string; title: string; description: string; date: string; category: string; reading: string; sections: { heading: string; text: string }[]; treatments: string[]; source: { title: string; url: string } };
+export type Article = { slug: string; title: string; description: string; image: string; imageAlt: string; date: string; category: string; reading: string; sections: { heading: string; text: string }[]; treatments: string[]; source: { title: string; url: string } };
